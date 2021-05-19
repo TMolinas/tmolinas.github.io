@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.landing_page{
+
+    background-image: url("image/ecureil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.an_box {
+    width : 80%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: white 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.a_link_box {
+    margin-top: 20px;
+}
+

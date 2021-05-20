@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.panneaux {
+    display: flex;
+    height: 100vh;
+    
+    
+}
+
+p {
+    font-family: "Pattaya", sans-serif;
+    font-family: 'Goblin One', cursive;
+    font-size: 3em;
+    color: white;
+}
+
+.panneau {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.un {
+    background-image: url("images/paysage1.jpg");
+}
+
+.deux {
+    background-image: url("images/paysage2.jpg");
+}
+
+.trois {
+    background-image: url("images/paysage3.jpg");
+}
+
+.quatre {
+    background-image: url("images/paysage4.jpg");
+}
+
+.cinq {
+    background-image: url("images/paysage5.jpg");
+}

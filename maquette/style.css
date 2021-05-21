@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #FF0013;
+    align-items: center;
+    height: 15vh;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+
+}
+.screen {
+    background-image: url("images/15.png");
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.zoneB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image1{
+    height: 150px;
+    width: 90px;
+    padding-right: 80px;
+}
+
+.image3 {
+    height: 150px;
+    width: 90px;
+    padding-left: 80px;
+}
+
+.image2 {
+    height: 150px;
+    width: 280px;
+}
+
+.punchline {
+    background-color: rgba(79, 81, 83, 0.24);
+    text-align: center;
+}
+
+.zoneA {
+    width: 70%;
+}
+
+.punchline, a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    background-color: #157347;
+}
+
+
+
+.card1 {
+    width: 200px;
+    height: 150px;
+}
+
+.card_plus {
+    width: 200px;
+    height: 150px;
+}
+
+.card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    border: solid;
+    border-color: gray;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+
+
+}
+
+.annonces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_connexion {
+    background-color: #157347;
+}
+
+.zoneC_in {
+    text-transform: uppercase;
+}
+
+.container_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(216, 219, 221);
+}
+
+.statistique {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.card_statistique {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    background-color: white;
+    width: 240px;
+    height: 300px;
+
+}
+
+.digit {
+    font-size:5em;
+}
+
+.Lorem {
+    text-align: center;
+    width: 50%;
+}
+
+.container_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_4_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.temoignages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reseaux_socios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.reseau_socio {
+    padding: 30px;
+}
